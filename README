@@ -1,0 +1,12 @@
+
+OpenFrameworks: http://openframeworks.cc
+addons: http://ofxaddons.com/categories
+ofxGui, ofxPD: https://github.com/danomatika/ofxPd
+
+Abhängigkeiten:
+portmidi,http://portmedia.sourceforge.net/portmidi/ 
+GuidoEngine, https://github.com/grame-cncm/guidolib 
+OpenGL Mathematics (glm) https://github.com/g-truc/glm
+
+Midi ist auskommentiert. Pfad zu der Font Datei in ofApp.cpp und openFrameworkFont.cpp muss manuell gesetzt werden.
+Bei „ScoreMapper.h“ ändern „Gsystem.OSX.h“ zu der jeweilige header der zielBS.
